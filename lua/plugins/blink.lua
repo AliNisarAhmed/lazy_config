@@ -11,6 +11,6 @@ return {
       ["<PageUp>"] = { "scroll_documentation_up", "fallback" },
       ["<PageDown>"] = { "scroll_documentation_down", "fallback" },
     },
-    completion = { list = { selection = "manual" } },
+    completion = { list = { selection = { preselect = true, auto_insert = true } } },
   },
 }
