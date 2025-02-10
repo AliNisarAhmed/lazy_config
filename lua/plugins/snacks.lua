@@ -7,7 +7,12 @@ return {
         frecency = true,
       },
       layout = {
-        preset = "default",
+        preset = "ivy",
+      },
+      sources = {
+        explorer = {
+          layout = { layout = { position = "right" } },
+        },
       },
     },
   },
